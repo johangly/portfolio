@@ -1,5 +1,6 @@
-@tailwind base;
-@tailwind utilities;
+/* @tailwind base;
+@tailwind utilities; */
+@import './build.css';
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
