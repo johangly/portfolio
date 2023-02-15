@@ -1,13 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import {Header} from './Header/index';
+import {Main} from './Main/index';
+import {Footer} from './Footer/index';
+import {Hero} from './Hero/index';
+import {About} from './About/index';
+import {Portfolio} from './Portfolio/index';
+import {Skills} from './Skills/index';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-      </h1>
+    <div className="App min-h-screen">
+      <Header/>
+      <Main>
+        <Hero/>
+        <About/>
+        <Portfolio/>
+        <Skills/>
+      </Main>
+      <Footer/>
     </div>
   );
 }
