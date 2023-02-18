@@ -2,7 +2,7 @@
 /* @tailwind utilities; */
 @import './build.css';
 
-@layer base{
+@layer fonts{
   @font-face {
     font-family: "Poppins";
     font-weight: 600;
