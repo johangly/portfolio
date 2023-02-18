@@ -8,7 +8,6 @@ type buttonTypes = {
 function HamburguerButton({showNav,setShowNav}:buttonTypes):JSX.Element{
 
   const [noAnimation,setNoAnimation] = useState<boolean>(false);
-  console.log("re-renderiza button")
 
   const changeButtonState = () =>{
     setNoAnimation(true)

@@ -1,0 +1,62 @@
+/* @tailwind base; */
+/* @tailwind utilities; */
+@import './build.css';
+
+@layer base{
+  @font-face {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    src: url('./assets/fonts/Poppins/Poppins-SemiBold.woff') format('woff');
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-weight: 900;
+    font-style: normal;
+    src: url('./assets/fonts/Poppins/Poppins-Black.woff') format('woff');
+  }
+  @font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    src: url('./assets/fonts/Roboto/Roboto-Regular.woff') format('woff'), url('./assets/fonts/Roboto/Roboto-Regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: normal;
+    src: url('./assets/fonts/Roboto/Roboto-Medium.woff') format('woff'), url('./assets/fonts/Roboto/Roboto-Medium.woff2') format('woff2');
+  }
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+  background-color: #cacaca;
+}
+html::-webkit-scrollbar-thumb {
+  background: #0496FF;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background: #41b0ff;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+html::-webkit-scrollbar-track {
+  background: #cacaca;
+}
+html::-webkit-scrollbar-track:hover,
+html::-webkit-scrollbar-track:active {
+  background: #cacaca;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

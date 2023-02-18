@@ -8,10 +8,10 @@ function About():JSX.Element {
       <figure className='w-full h-[350px] max-w-[350px] overflow-hidden rounded'>
         <img src={johangly} className="max-h-[500px] h-full w-full object-cover" alt='johangly sucre' title='johangly sucre'/>
       </figure>
-      <div className='max-w-[400px] flex flex-col items-start justify-center gap-3'>
-        <span className='bg-gray px-3 py-3 font-semibold uppercase font-poppins text-black'>about me</span>
-        <h3 className='text-black text-3xl font-bold font-poppins'>Semi-senior frontend developer</h3>
-        <p className='text-black'>I’m Frontend Developer, and i’m very passionate and dedicated to my work, With 2 years experience as a professional frontend developer, i have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussions and collaboration.</p>
+      <div className='lg:max-w-[450px] max-w-[350px] flex flex-col items-start justify-center gap-3'>
+        <span className='bg-gray px-2 py-2 text-sm font-semibold uppercase font-poppins text-black'>about me</span>
+        <h3 className='text-black text-3xl font-bold font-poppins'>Semi-senior Frontend Developer</h3>
+        <p className='text-black'>I'm a Frontend Developer, I'm very passionate and dedicated to my work, with 2 years experience as a professional Frontend Developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to design and development.</p>
         <DownloadCV size='full'/>
       </div>
     </section>
