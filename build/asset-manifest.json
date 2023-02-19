@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bcdef7fb.css",
-    "main.js": "/static/js/main.44acc099.js",
+    "main.css": "/static/css/main.ff6923d9.css",
+    "main.js": "/static/js/main.689d6387.js",
     "static/js/787.84f13bc7.chunk.js": "/static/js/787.84f13bc7.chunk.js",
     "static/media/johangly.webp": "/static/media/johangly.1df49da55d86e24a281d.webp",
     "static/media/Poppins-Black.woff": "/static/media/Poppins-Black.1e5f091591de403ea721.woff",
@@ -10,6 +10,7 @@
     "static/media/Roboto-Regular.woff": "/static/media/Roboto-Regular.755dd4f3935688012767.woff",
     "static/media/Roboto-Medium.woff2": "/static/media/Roboto-Medium.1d3bced88509b0838984.woff2",
     "static/media/Roboto-Regular.woff2": "/static/media/Roboto-Regular.64cfb66c866ea50cad47.woff2",
+    "static/media/johangly-small.webp": "/static/media/johangly-small.cb3ac4ca6e68282051d5.webp",
     "static/media/johangly-about.webp": "/static/media/johangly-about.7cac6629b3833e69e805.webp",
     "static/media/exevi.webp": "/static/media/exevi.c002b47cd9e2bb5d06f5.webp",
     "static/media/dowa.webp": "/static/media/dowa.09a6d4a03d23531c8daf.webp",
@@ -32,12 +33,12 @@
     "static/media/email.svg": "/static/media/email.751a5bd647ddf058010a98fdac4eb3f0.svg",
     "static/media/css.svg": "/static/media/css.86f80e2e27e551ac42d89f68521f53ba.svg",
     "static/media/html.svg": "/static/media/html.d630bdf666180ded3dd076422410b6ae.svg",
-    "main.bcdef7fb.css.map": "/static/css/main.bcdef7fb.css.map",
-    "main.44acc099.js.map": "/static/js/main.44acc099.js.map",
+    "main.ff6923d9.css.map": "/static/css/main.ff6923d9.css.map",
+    "main.689d6387.js.map": "/static/js/main.689d6387.js.map",
     "787.84f13bc7.chunk.js.map": "/static/js/787.84f13bc7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcdef7fb.css",
-    "static/js/main.44acc099.js"
+    "static/css/main.ff6923d9.css",
+    "static/js/main.689d6387.js"
   ]
 }
