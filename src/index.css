@@ -1,6 +1,7 @@
-/* @tailwind base; */
-/* @tailwind utilities; */
-@import './build.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import './build.css'; */
 
 @layer fonts{
   @font-face {

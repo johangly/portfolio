@@ -4,7 +4,7 @@ type MainTypes={
 }
 function Main({children}:MainTypes) {
   return (
-    <main className='px-4 max-w-7xl mx-auto min-h-screen'>
+    <main className='px-3 max-w-[860px] mx-auto min-h-screen'>
       {children}
     </main>
   )

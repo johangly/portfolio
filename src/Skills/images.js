@@ -7,6 +7,9 @@ import sass from '../assets/icons/sass.svg';
 import tailwind from '../assets/icons/tailwind.svg';
 import react from '../assets/icons/react.svg';
 import javascript from '../assets/icons/javascript.svg';
+import php from '../assets/icons/php.svg';
+import nodejs from '../assets/icons/nodejs.svg';
+import python from '../assets/icons/python.svg';
 
 const Languagues={
   html:html,
@@ -18,6 +21,9 @@ const Languagues={
   tailwind:tailwind,
   react:react,
   javascript:javascript,
+  php:php,
+  nodejs:nodejs,
+  python:python,
 };
 
 export {Languagues};
